@@ -1,33 +1,76 @@
+# 👉 ANGULAR IGNORE RULES
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node modules and logs
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Angular cache
+/.angular/cache
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VS Code settings (keep some config files)
+/.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+.history/
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# --- SPRING BOOT / JAVA / MAVEN IGNORE RULES ---
+
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
+
+# Keep target folders in src folders
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Spring Tool Suite
 .apt_generated
-.classpath
 .factorypath
-.project
-.settings
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
-/dist/
 /nbdist/
+/dist/
 /.nb-gradle/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-### VS Code ###
-.vscode/
